@@ -1,0 +1,18 @@
+img:hover{
+    cursor: pointer;
+    transform: scale(1.07);
+}
+
+span{
+    color: white;
+}
+
+button{
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+  background-color: rgb(32, 144, 32);
+  color: white;
+}

@@ -1,0 +1,12 @@
+ <div>
+      <div class="card">
+        <div class="card-header bg-success text-md-center">
+          <span>CATEGORÍAS</span>
+        </div>
+        <div class="card-body">
+            @for (pokemon of sortedCategories(); track $index) {
+                <img [src]="pokemon.photo" (click)="emitPokemon(pokemon)" class="card-img-top"><br><br> 
+            }
+        </div>
+      </div>
+    </div>

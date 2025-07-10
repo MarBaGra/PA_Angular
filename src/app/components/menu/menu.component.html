@@ -1,0 +1,8 @@
+<div class="container menu">
+  <br /><br>
+  @for (item of exercises(); track $index) {
+    <button class="rounded btnList" routerLink="/{{item.id}}">
+        <span>Ejercicio {{item.id}}</span>
+    </button>
+  }
+</div>

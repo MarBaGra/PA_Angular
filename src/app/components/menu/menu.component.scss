@@ -1,0 +1,17 @@
+button{
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+button:hover {
+  background-color: rgb(32, 144, 32);
+  color: white;
+}
+
+.menu{
+    margin-left: 15px;
+    background-color: rgb(54, 171, 81);
+    padding-left: 15px;
+    padding-bottom: 15px;
+}

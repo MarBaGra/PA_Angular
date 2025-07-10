@@ -1,0 +1,492 @@
+[
+  {
+    "id": 1001,
+    "name": "Normal",
+    "category_id": null,
+    "parent": null,
+    "photo": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/9/99/latest/20221208180705/Tipo_normal_EP.png/80px-Tipo_normal_EP.png"
+  },
+  {
+    "id": 1002,
+    "name": "Fuego",
+    "category_id": null,
+    "parent": null,
+    "photo": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/c/c0/latest/20221208180625/Tipo_fuego_EP.png/80px-Tipo_fuego_EP.png"
+  },
+  {
+    "id": 1003,
+    "name": "Agua",
+    "category_id": null,
+    "parent": null,
+    "photo": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/5/59/latest/20221208180426/Tipo_agua_EP.png/80px-Tipo_agua_EP.png"
+  },
+  {
+    "id": 1004,
+    "name": "Planta",
+    "category_id": null,
+    "parent": null,
+    "photo": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/a/a7/latest/20221208180710/Tipo_planta_EP.png/80px-Tipo_planta_EP.png"
+  },
+  {
+    "id": 1005,
+    "name": "Electrico",
+    "category_id": null,
+    "parent": null,
+    "photo": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/3/38/latest/20221208180452/Tipo_el%C3%A9ctrico_EP.png/80px-Tipo_el%C3%A9ctrico_EP.png"
+  },
+  {
+    "id": 1006,
+    "name": "Psiquico",
+    "category_id": null,
+    "parent": null,
+    "photo": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/9/9b/latest/20221208180717/Tipo_ps%C3%ADquico_EP.png/80px-Tipo_ps%C3%ADquico_EP.png"
+  },
+  {
+    "id": 1007,
+    "name": "Roca",
+    "category_id": null,
+    "parent": null,
+    "photo": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/8/88/latest/20221208180726/Tipo_roca_EP.png/80px-Tipo_roca_EP.png"
+  },
+  {
+    "id": 1008,
+    "name": "Tierra",
+    "category_id": null,
+    "parent": null,
+    "photo": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/c/c9/latest/20221208180742/Tipo_tierra_EP.png/80px-Tipo_tierra_EP.png"
+  },
+  {
+    "id": 1009,
+    "name": "Hielo",
+    "category_id": null,
+    "parent": null,
+    "photo": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/1/17/latest/20221208180641/Tipo_hielo_EP.png/80px-Tipo_hielo_EP.png"
+  },
+  {
+    "id": 1010,
+    "name": "Fantasma",
+    "category_id": null,
+    "parent": null,
+    "photo": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/0/03/latest/20221208180503/Tipo_fantasma_EP.png/80px-Tipo_fantasma_EP.png"
+  },
+  {
+    "id": 1011,
+    "name": "Lucha",
+    "category_id": null,
+    "parent": null,
+    "photo": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/5/5f/latest/20221208180651/Tipo_lucha_EP.png/80px-Tipo_lucha_EP.png"
+  },
+  {
+    "id": 1,
+    "name": "Bulbasaur",
+    "category_id": [1004],
+    "parent": null,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+  },
+  {
+    "id": 2,
+    "name": "Ivysaur",
+    "category_id": [1004],
+    "parent": 1,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
+  },
+  {
+    "id": 3,
+    "name": "Venusaur",
+    "category_id": [1004],
+    "parent": 2,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
+  },
+  {
+    "id": 4,
+    "name": "Charmander",
+    "category_id": [1002],
+    "parent": null,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+  },
+  {
+    "id": 5,
+    "name": "Charmeleon",
+    "category_id": [1002],
+    "parent": 4,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+  },
+  {
+    "id": 6,
+    "name": "Charizard",
+    "category_id": [1002, 1007],
+    "parent": 5,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
+  },
+  {
+    "id": 7,
+    "name": "Squirtle",
+    "category_id": [1003],
+    "parent": null,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
+  },
+  {
+    "id": 8,
+    "name": "Wartortle",
+    "category_id": [1003],
+    "parent": 7,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png"
+  },
+  {
+    "id": 9,
+    "name": "Blastoise",
+    "category_id": [1003],
+    "parent": 8,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png"
+  },
+  {
+    "id": 10,
+    "name": "Caterpie",
+    "category_id": [1004],
+    "parent": null,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png"
+  },
+  {
+    "id": 11,
+    "name": "Metapod",
+    "category_id": [1004],
+    "parent": 10,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png"
+  },
+  {
+    "id": 12,
+    "name": "Butterfree",
+    "category_id": [1004],
+    "parent": 11,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
+  },
+  {
+    "id": 13,
+    "name": "Weedle",
+    "category_id": [1004],
+    "parent": null,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png"
+  },
+  {
+    "id": 14,
+    "name": "Kakuna",
+    "category_id": [1004],
+    "parent": 13,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png"
+  },
+  {
+    "id": 15,
+    "name": "Beedrill",
+    "category_id": [1004],
+    "parent": 14,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png"
+  },
+  {
+    "id": 16,
+    "name": "Pidgey",
+    "category_id": [1001],
+    "parent": null,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png"
+  },
+  {
+    "id": 17,
+    "name": "Pidgeotto",
+    "category_id": [1001],
+    "parent": 16,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png"
+  },
+  {
+    "id": 18,
+    "name": "Pidgeot",
+    "category_id": [1001],
+    "parent": 17,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png"
+  },
+  {
+    "id": 19,
+    "name": "Rattata",
+    "category_id": [1001],
+    "parent": null,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+  },
+  {
+    "id": 20,
+    "name": "Raticate",
+    "category_id": [1001],
+    "parent": 19,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png"
+  },
+  {
+    "id": 21,
+    "name": "Spearow",
+    "category_id": [1001],
+    "parent": null,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png"
+  },
+  {
+    "id": 22,
+    "name": "Fearow",
+    "category_id": [1001],
+    "parent": 21,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png"
+  },
+  {
+    "id": 23,
+    "name": "Ekans",
+    "category_id": [1001],
+    "parent": null,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png"
+  },
+  {
+    "id": 24,
+    "name": "Arbok",
+    "category_id": [1001],
+    "parent": 23,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png"
+  },
+  {
+    "id": 25,
+    "name": "Pikachu",
+    "category_id": [1005],
+    "parent": null,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+  },
+  {
+    "id": 26,
+    "name": "Raichu",
+    "category_id": [1005],
+    "parent": 25,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png"
+  },
+  {
+    "id": 27,
+    "name": "Sandshrew",
+    "category_id": [1008],
+    "parent": null,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png"
+  },
+  {
+    "id": 28,
+    "name": "Sandslash",
+    "category_id": [1008],
+    "parent": 27,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png"
+  },
+  {
+    "id": 29,
+    "name": "Nidoran",
+    "category_id": [1001],
+    "parent": null,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png"
+  },
+  {
+    "id": 30,
+    "name": "Nidorina",
+    "category_id": [1001],
+    "parent": 29,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png"
+  },
+  {
+    "id": 31,
+    "name": "Nidoqueen",
+    "category_id": [1001],
+    "parent": 30,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png"
+  },
+  {
+    "id": 32,
+    "name": "Nidoran\u2642",
+    "category_id": [1001],
+    "parent": null,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png"
+  },
+  {
+    "id": 33,
+    "name": "Nidorino",
+    "category_id": [1001],
+    "parent": 32,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png"
+  },
+  {
+    "id": 34,
+    "name": "Nidoking",
+    "category_id": [1001],
+    "parent": 33,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png"
+  },
+  {
+    "id": 35,
+    "name": "Clefairy",
+    "category_id": [1001],
+    "parent": null,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png"
+  },
+  {
+    "id": 36,
+    "name": "Clefable",
+    "category_id": [1001],
+    "parent": 35,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png"
+  },
+  {
+    "id": 37,
+    "name": "Vulpix",
+    "category_id": [1002],
+    "parent": null,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png"
+  },
+  {
+    "id": 38,
+    "name": "Ninetales",
+    "category_id": [1002],
+    "parent": 37,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png"
+  },
+  {
+    "id": 39,
+    "name": "Jigglypuff",
+    "category_id": [1001],
+    "parent": null,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png"
+  },
+  {
+    "id": 40,
+    "name": "Wigglytuff",
+    "category_id": [1001],
+    "parent": 39,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png"
+  },
+  {
+    "id": 41,
+    "name": "Zubat",
+    "category_id": [1001],
+    "parent": null,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png"
+  },
+  {
+    "id": 42,
+    "name": "Golbat",
+    "category_id": [1001],
+    "parent": 41,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png"
+  },
+  {
+    "id": 43,
+    "name": "Oddish",
+    "category_id": [1004],
+    "parent": null,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png"
+  },
+  {
+    "id": 44,
+    "name": "Gloom",
+    "category_id": [1004],
+    "parent": 43,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png"
+  },
+  {
+    "id": 45,
+    "name": "Vileplume",
+    "category_id": [1004],
+    "parent": 44,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png"
+  },
+  {
+    "id": 46,
+    "name": "Paras",
+    "category_id": [1004],
+    "parent": null,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png"
+  },
+  {
+    "id": 47,
+    "name": "Parasect",
+    "category_id": [1004],
+    "parent": 46,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png"
+  },
+  {
+    "id": 48,
+    "name": "Venonat",
+    "category_id": [1004],
+    "parent": null,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png"
+  },
+  {
+    "id": 49,
+    "name": "Venomoth",
+    "category_id": [1004],
+    "parent": 48,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png"
+  },
+  {
+    "id": 50,
+    "name": "Diglett",
+    "category_id": [1008],
+    "parent": null,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png"
+  },
+  {
+    "id": 51,
+    "name": "Dugtrio",
+    "category_id": [1008],
+    "parent": 50,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png"
+  },
+  {
+    "id": 52,
+    "name": "Meowth",
+    "category_id": [1001],
+    "parent": null,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png"
+  },
+  {
+    "id": 53,
+    "name": "Persian",
+    "category_id": [1001],
+    "parent": 52,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png"
+  },
+  {
+    "id": 54,
+    "name": "Psyduck",
+    "category_id": [1003],
+    "parent": null,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png"
+  },
+  {
+    "id": 55,
+    "name": "Golduck",
+    "category_id": [1003],
+    "parent": 54,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png"
+  },
+  {
+    "id": 56,
+    "name": "Mankey",
+    "category_id": [1011],
+    "parent": null,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png"
+  },
+  {
+    "id": 57,
+    "name": "Primeape",
+    "category_id": [1011],
+    "parent": 56,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png"
+  },
+  {
+    "id": 58,
+    "name": "Growlithe",
+    "category_id": [1002],
+    "parent": null,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png"
+  },
+  {
+    "id": 59,
+    "name": "Arcanine",
+    "category_id": [1002],
+    "parent": 58,
+    "photo": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png"
+  }
+]

@@ -1,0 +1,28 @@
+<div class="row justify-content-center">
+   <app-pokemon-categories 
+    class="col-md-3 my-2"
+    [apiPokemon]="apiPokemon"
+    (pokemonSelected)="searchPokemos($event)"
+   >
+   </app-pokemon-categories>
+  <div class="col-md-3 my-2">
+    <div class="card">
+      <div class="card-header bg-success text-md-center">
+        <span>POKEMONS</span>
+      </div>
+      @if (show) {
+        <div class="card-body">
+            @for (cat of category(); track $index) {
+                <img [src]="cat" (click)="showEvolution(cat)" class="card-img-top">
+            }
+        </div>
+      }
+      @if (!show) {
+        <div class="card-body">
+            <button (click)="backEvolution()">Evolución anterior</button><br>
+            <img [src]="evolution" (click)="showEvolution(evolution)" class="card-img-top">
+        </div>
+      }
+    </div>
+  </div>
+</div>
